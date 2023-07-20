@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+body {
+    background-color:#252525 ;
+}
+
+p {
+    color: antiquewhite;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    /* background: url();
+    -webkit-background-clip: text; */
+    
+}
