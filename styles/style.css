@@ -70,11 +70,11 @@ h3{
 }
 
 img {
-    height: 4rem;
+    height: 50px;
     margin-left: 1rem;
     margin-right: 1rem;
     background-color: #F8F1F1;
-    border-radius:2rem;
+    border-radius:20px;
     border-style:solid;
     border-color: #900C3F;
 }
