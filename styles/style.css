@@ -3,6 +3,14 @@
     margin: 0;
     padding: 0;
 }
+html{
+    
+}
+
+
+body {
+    background-color: #2B2E4A;
+}
 
 .main{
     display: flex;
