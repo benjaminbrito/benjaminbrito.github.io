@@ -4,38 +4,60 @@
     padding: 0;
 }
 html{
-    
+    font-size: 65.4%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
 }
 
+:root{
+    --background-color :#17202A ;
+    --text-color: aliceblue;
+    --more-color: #FFC300;
+    --aside-bar-color: #FF5733;
+    --nav-bar-color: #C70039;
+    --footer-color: #900C3F;
+    --nav-text-color: #DAF7A6; 
+}
 
 body {
-    background-color: #2B2E4A;
+    background-color: var(--background-color);
+}
+
+p{
+    font-size: 1.6rem;
 }
 
 .main{
+    height: 90vh;
     display: flex;
+    flex-direction: column;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.aside-bar {
+    background-color: #FF573350 ;
+    margin: 0;
+}
+
+.aside-bar section p {
+    color: var(--text-color);
 }
 
 h1{
-    color: #F8F1F1;
-}
-
-.main-page{
-    width: 80%;
-}
-
-.aside-bar{
-    width: 20%;
+    font-size: 3rem;
+    text-align: center;
+    color: var(--nav-bar-color);
+    margin-bottom: 2rem;
 }
 
 .nav-bar {
+    font-size: 1.5rem;
     display: flex;
     justify-content: space-between;
     height: 3rem;
-    background-color: #E8AA42;
+    background-color: var(--background-color);
     border: 5rem;
 }
-
 
 .nav-bar li {
     display: inline-block;
@@ -44,15 +66,13 @@ h1{
 }
 .nav-bar a {
     text-decoration: none;
-    color: #025464;
-    font-family: 'Times New Roman', Times, serif;
+    color: var(--more-color);
 }
 
-.nav-bar li ::before {
+/* .nav-bar li ::before {
     content: " | ";
-    color: black;
-}
-
+    color: var(--nav-bar-color);
+} */
 
 li{
     display: inline-block;
@@ -60,11 +80,6 @@ li{
 
 a{
     text-decoration: none;
-    color:antiquewhite;
-}
-
-body {
-    background-color:#252525 ;
 }
 
 /* 
@@ -76,21 +91,30 @@ p {
     -webkit-background-clip: text; 
 } */
 
-.aside-bar {
-    background-color: #E57C23;
-    height: 40rem;
-    margin: 0;
+.main-content p {
+    font-family:'Times New Roman', Times, serif;
+    text-align: justify;
+    color: var(--text-color);
 }
 
-.main-page p {
-    font-family:'Times New Roman', Times, serif;
-    font-size: 2rem;
-    color: #F8F1F1;
+footer {
+    background-color: var(--footer-color);
+    height: 10vh;
 }
 
 .footer-container {
     display: flex;
     justify-content: center;
-    background-color: #F8F1F1;
-    margin: 0;
+}
+
+.footer-container p{
+    margin-top: .5rem;
+    color: var(--nav-text-color);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+
+.nav-bar li :hover {
+    color: var(--nav-bar-color);
 }

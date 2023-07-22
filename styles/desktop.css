@@ -1,0 +1,43 @@
+.nav-bar {
+    justify-content: center;
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+}
+.nav-bar li {
+    margin-right: 2rem;
+    margin-left: 2rem;
+    
+}
+.main{
+    height: 85vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.main-content{
+    margin: 2rem;
+    width: 80%;
+}
+
+.aside-bar{
+    width: 20%;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+.aside-bar section {
+    margin: 2rem;
+}
+
+
+footer {
+    background-color: var(--footer-color);
+    height: 5vh;
+}
+
+
+.footer-container p{
+    margin-top: 1rem;
+}
