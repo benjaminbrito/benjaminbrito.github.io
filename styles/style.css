@@ -133,11 +133,11 @@ img {
 }
 .img-media {
     background-image: 
-        linear-gradient(to left, #17202A 50%, transparent 100%), /* Degradado azul hacia la izquierda */
+        linear-gradient(to right, #17202A 50%, transparent 100%), /* Degradado azul hacia la izquierda */
         url('../img/media.jpeg'); /* Imagen de fondo */
     background-size: 50% 100%, cover; /* La imagen ocupa la mitad derecha y el degradado cubre todo */
     background-repeat: no-repeat; /* Evita que la imagen o el degradado se repitan */
-    background-position: right center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
+    background-position: left center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
     padding: 20px; /* Añade espacio interno para que el texto no toque los bordes */
     color: white; /* Cambia el color del texto para mejorar la legibilidad */
 
@@ -170,11 +170,11 @@ img {
 }
 .img-personaje {
     background-image: 
-        linear-gradient(to left, #17202A 50%, transparent 100%), /* Degradado azul hacia la izquierda */
+        linear-gradient(to right, #17202A 50%, transparent 100%), /* Degradado azul hacia la izquierda */
         url('../img/personaje.jpg'); /* Imagen de fondo */
     background-size: 50% 100%, cover; /* La imagen ocupa la mitad derecha y el degradado cubre todo */
     background-repeat: no-repeat; /* Evita que la imagen o el degradado se repitan */
-    background-position: right center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
+    background-position: left center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
     padding: 20px; /* Añade espacio interno para que el texto no toque los bordes */
     color: white; /* Cambia el color del texto para mejorar la legibilidad */
 
@@ -192,7 +192,7 @@ img {
         url('../img/biblia.jpg'); /* Imagen de fondo */
     background-size: 100% 100%, cover; /* La imagen ocupa la mitad derecha y el degradado cubre todo */
     background-repeat: no-repeat; /* Evita que la imagen o el degradado se repitan */
-    background-position: left center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
+    background-position: right center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
     padding: 20px; /* Añade espacio interno para que el texto no toque los bordes */
     color: white; /* Cambia el color del texto para mejorar la legibilidad */
 
@@ -207,11 +207,11 @@ img {
 
 .img-leccion {
     background-image: 
-        linear-gradient(to left, #17202A 50%, transparent 100%), /* Degradado azul hacia la izquierda */
+        linear-gradient(to right, #17202A 50%, transparent 100%), /* Degradado azul hacia la izquierda */
         url('../img/leccion2.jpg'); /* Imagen de fondo */
     background-size: 50% 100%, cover; /* La imagen ocupa la mitad derecha y el degradado cubre todo */
     background-repeat: no-repeat; /* Evita que la imagen o el degradado se repitan */
-    background-position: right center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
+    background-position: left center, center; /* Coloca la imagen a la derecha y el degradado sobre la imagen */
     padding: 20px; /* Añade espacio interno para que el texto no toque los bordes */
     color: white; /* Cambia el color del texto para mejorar la legibilidad */
 
